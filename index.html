@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>CARDS OF RICK AND MORTY</h1>
+        <span class="filtered">Personalized</span>
+    </header>
+    <!--End Header-->
+
+    <!--Main-->
+     <main>
+        <div class="main__container--cards">
+        </div>
+       
+        <div class="main__container--personalize inactive">
+            <div class="select container__selection--gender">
+                <p>Choose your gender</p>
+                <select name="gender" id="">
+                    <option value="">Female</option>
+                    <option value="">Male</option>
+                    <option value="">Genderless</option>
+                    <option value="">Unknown</option>
+                    <option value="" selected>All</option>
+                </select>
+            </div>
+            <div class="select container__selection--status">
+                <p>Choose your status</p>
+                <select name="status" id="">
+                    <option value="">Alive</option>
+                    <option value="">Dead</option>
+                    <option value="">Unknown</option>
+                    <option value="" selected>All</option>
+                </select>
+            </div>
+            <div class="select container__selection--species">
+                <p>Choose your specie</p>
+                <select name="species" id="">
+                    <option value="">Human</option>
+                    <option value="">Alien</option>
+                    <option value="">Animal</option>
+                    <option value="">Robot</option>
+                    <option value="">Mythological Creature</option>
+                    <option value="">Humanoid</option>
+                    <option value="">Cronenberg</option>
+                    <option value="">Poopybutthole</option>
+                    <option value="">Disease</option>
+                    <option value="">Unknown</option>
+                    <option value="" selected>All</option>
+                </select>
+            </div>
+            <button class="sendFiltered">Filter</button>
+        </div>
+     </main>
+    <!--End Main-->
+    <script src="./nodes.js"></script>
+    <script src="./navigator.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
